@@ -1,0 +1,97 @@
+.bar_container {
+  margin: 0 50px;
+}
+.first_card {
+  display: flex;
+  align-items: center;
+}
+#image {
+  width: 70px;
+}
+.first_card img {
+  width: 50px;
+  /* border: 1px solid #437ce2; */
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.first_border {
+  display: flex;
+  /* border: 1px solid red; */
+  /* box-sizing: border-box; */
+}
+.first_container_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-right: 20px;
+  width: 280px;
+  height: 70px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.percentage {
+  /* border: 1px solid rgb(196, 214, 196); */
+  border-radius: 20px;
+  padding: 0 10px;
+  background-color: rgb(212, 222, 212);
+  color: green;
+  margin-right: 10px;
+}
+.orders {
+  border-radius: 20px;
+  padding: 0 10px;
+  background-color: rgb(237, 212, 212);
+  color: red;
+  margin-right: 10px;
+}
+.devider {
+  display: flex;
+}
+.side_img {
+  /* border: 1px solid rebeccapurple; */
+  /* box-sizing: border-box; */
+}
+.side_img img {
+  /* border: 1px solid blue; */
+  height: 100px;
+  width: 360px;
+  /* margin-left: 20px; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.side_user_img img {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  margin-top: -45px;
+}
+.i_icon {
+  width: 18px;
+  height: 18px;
+}
+.bar-chart {
+  width: 120px;
+}
+.bar_percent {
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+.side_percent {
+  color: green;
+  background-color: rgb(207, 220, 207);
+  border-radius: 20px;
+  padding: 0 8px;
+}
+.date {
+  background-color: rgb(232, 235, 232);
+  padding: 2px 13px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.readmore {
+  margin-right: 169px;
+}

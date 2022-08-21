@@ -1,0 +1,36 @@
+.main_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  margin: 0 55px;
+}
+.navbar_img {
+  width: 26px;
+  height: 26px;
+  border-radius: 13px;
+}
+.navbar_iconimg {
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+  margin-right: 16px;
+}
+.navbar_bellicon {
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+  margin-right: 16px;
+}
+.navbar_appicon {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin-right: 16px;
+}
+.navbar_searchicon {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  margin-right: 16px;
+}
