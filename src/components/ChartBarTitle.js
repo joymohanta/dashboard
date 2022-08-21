@@ -5,57 +5,60 @@ const ChartBarTitle = () => {
   return (
     <div className="bar_container">
       <section className="devider">
-        <section className="first_border">
-          <div className="first_container_card">
-            <span className="first_card">
-              <img
-                id="image"
-                src="https://cdn3.iconfinder.com/data/icons/business-finance-glyph-1/64/pie-cart-512.png"
-                alt=""
-              />
-              <span>
-                <p className="mb-1">Revenue</p> <h5>$21,456</h5>
+        <section>
+          <div className="first_border">
+            <div className="first_container_card">
+              <span className="first_card">
+                <img
+                  id="image"
+                  src="https://cdn3.iconfinder.com/data/icons/business-finance-glyph-1/64/pie-cart-512.png"
+                  alt=""
+                />
+                <span>
+                  <p className="mb-1">Revenue</p> <h5>$21,456</h5>
+                </span>
               </span>
-            </span>
-            <span>
-              <p>
-                <small className="percentage"> +2.65% </small>
-              </p>
-            </span>
-          </div>
-          <div className="first_container_card">
-            <span className="first_card">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlFg2zc3lOwa5a99yqGzOsN7y7ds17Am1hp1WznrKHkPcDE-OOeCCa1vF9MPGfWHEZzEk&usqp=CAU"
-                alt=""
-              />
               <span>
-                <p className="mb-1">Orders</p> <h5>5,643</h5>
+                <p>
+                  <small className="percentage"> +2.65% </small>
+                </p>
               </span>
-            </span>
-            <span>
-              <p>
-                <small className="orders"> - 0.82% </small>
-              </p>
-            </span>
-          </div>
-          <div className="first_container_card">
-            <span className="first_card">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7l7a5uXoXJASPGIjDCka3TLXhuseZnjKRx6zsSIHBNRv3z56UK33GnjQbFHjdF0xboFM&usqp=CAU"
-                alt=""
-              />
+            </div>
+            <div className="first_container_card">
+              <span className="first_card">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlFg2zc3lOwa5a99yqGzOsN7y7ds17Am1hp1WznrKHkPcDE-OOeCCa1vF9MPGfWHEZzEk&usqp=CAU"
+                  alt=""
+                />
+                <span>
+                  <p className="mb-1">Orders</p> <h5>5,643</h5>
+                </span>
+              </span>
               <span>
-                <p className="mb-1">Customers</p>
-                <h5 className="me-2">45,254</h5>
+                <p>
+                  <small className="orders"> - 0.82% </small>
+                </p>
               </span>
-            </span>
-            <span>
-              <p>
-                <small className="orders"> - 1.04% </small>
-              </p>
-            </span>
+            </div>
+            <div className="first_container_card">
+              <span className="first_card">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7l7a5uXoXJASPGIjDCka3TLXhuseZnjKRx6zsSIHBNRv3z56UK33GnjQbFHjdF0xboFM&usqp=CAU"
+                  alt=""
+                />
+                <span>
+                  <p className="mb-1">Customers</p>
+                  <h5 className="me-2">45,254</h5>
+                </span>
+              </span>
+              <span>
+                <p>
+                  <small className="orders"> - 1.04% </small>
+                </p>
+              </span>
+            </div>
           </div>
+          <div></div>
         </section>
         <section className="bg-white">
           <div className="side_img">
