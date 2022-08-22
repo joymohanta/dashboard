@@ -1,0 +1,28 @@
+.status {
+  width: 280px;
+  border-radius: 10px;
+}
+.first_chart_container {
+  width: 95%;
+}
+.first_chart {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ball_green {
+  color: #aadbbc;
+  padding: 0 6px;
+  border-radius: 10px;
+  margin-right: 5px;
+  background-color: #aadbbc;
+}
+.ball_blue {
+  color: #a29fe1;
+  padding: 0 6px;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #a29fe1;
+}

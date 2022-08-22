@@ -1,6 +1,7 @@
 import React from "react";
 import ChartBar from "./ChartBar";
 import "./ChartBarTitle.css";
+import Status from "./Status";
 
 const ChartBarTitle = () => {
   return (
@@ -61,6 +62,9 @@ const ChartBarTitle = () => {
           </div>
           <div>
             <ChartBar></ChartBar>
+          </div>
+          <div>
+            <Status></Status>
           </div>
         </section>
         <section className="bg-white">
