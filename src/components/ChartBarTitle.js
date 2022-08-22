@@ -2,6 +2,7 @@ import React from "react";
 import ChartBar from "./ChartBar";
 import "./ChartBarTitle.css";
 import ChartPie from "./ChartPie";
+import ProductView from "./ProductView";
 import Status from "./Status";
 
 const ChartBarTitle = () => {
@@ -64,12 +65,13 @@ const ChartBarTitle = () => {
           <div>
             <ChartBar></ChartBar>
           </div>
-          <div className="d-flex">
+          <div className="d-flex three_status">
             <Status></Status>
             <ChartPie></ChartPie>
+            <ProductView></ProductView>
           </div>
         </section>
-        <section className="bg-white">
+        <section className="bg-white first_user_column">
           <div className="side_img">
             <img
               src="https://images.unsplash.com/photo-1549279866-41b2b21a0de4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Ymx1ZSUyMGhpbGxzfGVufDB8fDB8fA%3D%3D&w=1000&q=80"

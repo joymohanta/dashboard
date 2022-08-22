@@ -56,7 +56,7 @@ const Status = () => {
   ];
 
   return (
-    <div className="d-flex mt-3 bg-white status">
+    <div className=" mt-3 bg-white status">
       <div className="first_chart_container">
         <div className="first_chart mx-2 mt-2">
           <span>

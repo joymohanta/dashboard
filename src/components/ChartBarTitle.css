@@ -49,10 +49,6 @@
 .devider {
   display: flex;
 }
-.side_img {
-  /* border: 1px solid rebeccapurple; */
-  /* box-sizing: border-box; */
-}
 .side_img img {
   height: 100px;
   width: 360px;
@@ -94,4 +90,34 @@
 }
 .readmore {
   margin-right: 169px;
+}
+
+@media screen and (max-width: 576px) {
+  .devider {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .first_user_column {
+    margin-bottom: 20px;
+    width: 345px;
+    /* margin-right: 40px; */
+  }
+  .first_border {
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 10px; */
+  }
+  .first_container_card {
+    margin-bottom: 10px;
+  }
+  .three_status {
+    display: flex;
+    flex-direction: column;
+  }
+  .side_img img {
+    width: 345px;
+  }
+  .side_user_img img {
+    width: 70px;
+  }
 }

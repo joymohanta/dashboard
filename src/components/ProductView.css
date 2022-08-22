@@ -1,0 +1,27 @@
+.product {
+  width: 280px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+.number_color {
+  /* border: 1px solid #8884d8; */
+  color: white;
+  background-color: #8884d8;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  border-radius: 15px;
+  padding: 0 10px;
+}
+.dolor_price {
+  margin-right: 55px;
+}
+.total_dolar {
+  background-color: rgb(242, 241, 241);
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}

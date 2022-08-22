@@ -74,7 +74,7 @@ const ChartBar = () => {
           </select>
         </h6>
       </div>
-      <div className="d-flex mt-2">
+      <div className="d-flex mt-2 container_main_chart_center">
         <div className="me-4">
           <p className="d-flex mx-2 mb-0">
             <small>This Month</small> <p></p>
@@ -130,7 +130,7 @@ const ChartBar = () => {
             </span>
           </div>
         </div>
-        <div className="ms-4">
+        <div className="ms-4 main_chart_center">
           <BarChart width={600} height={250} data={data}>
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis dataKey="name" />
