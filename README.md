@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Visualization Dashboard Live Link
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[https://silver-rabanadas-743901.netlify.app/]
 
 ## Available Scripts
 
