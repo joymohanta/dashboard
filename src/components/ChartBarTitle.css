@@ -10,15 +10,12 @@
 }
 .first_card img {
   width: 50px;
-  /* border: 1px solid #437ce2; */
   border-radius: 10px;
   margin-right: 10px;
   margin-left: 10px;
 }
 .first_border {
   display: flex;
-  /* border: 1px solid red; */
-  /* box-sizing: border-box; */
 }
 .first_container_card {
   display: flex;
@@ -32,7 +29,6 @@
   border-radius: 10px;
 }
 .percentage {
-  /* border: 1px solid rgb(196, 214, 196); */
   border-radius: 20px;
   padding: 0 10px;
   background-color: rgb(212, 222, 212);
@@ -98,16 +94,12 @@
     flex-direction: column-reverse;
   }
   .first_user_column {
-    margin: 10px auto;
+    margin-bottom: 20px;
     width: 345px;
-    /* margin-left: 0px;
-    margin-right: 5px; */
-    /* text-align: center; */
   }
   .first_border {
     display: flex;
     flex-direction: column;
-    /* margin-bottom: 10px; */
   }
   .first_container_card {
     margin-bottom: 10px;
