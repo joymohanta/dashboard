@@ -127,8 +127,6 @@ const Status = () => {
           </AreaChart>
         </div>
       </div>
-      <div></div>
-      <div></div>
     </div>
   );
 };

@@ -80,7 +80,7 @@ const ChartBar = () => {
             <small>This Month</small> <p></p>
           </p>
           <span className="d-flex">
-            <h4 className="ms-2">$24,568</h4>
+            <h4 className="ms-2 pe-4">$24,568</h4>
             <p>
               <small className="percentage ms-4">+2.65%</small>
             </p>

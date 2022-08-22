@@ -1,6 +1,7 @@
 import React from "react";
 import ChartBar from "./ChartBar";
 import "./ChartBarTitle.css";
+import ChartPie from "./ChartPie";
 import Status from "./Status";
 
 const ChartBarTitle = () => {
@@ -63,8 +64,9 @@ const ChartBarTitle = () => {
           <div>
             <ChartBar></ChartBar>
           </div>
-          <div>
+          <div className="d-flex">
             <Status></Status>
+            <ChartPie></ChartPie>
           </div>
         </section>
         <section className="bg-white">
@@ -100,8 +102,8 @@ const ChartBarTitle = () => {
           </div>
           <hr className="mx-4 my-2" />
           <div>
-            <span className="d-flex justify-content-between mx-4">
-              <p>Earning</p>
+            <span className="d-flex justify-content-between mx-4 my-0">
+              <p className="mb-0">Earning</p>
               <img
                 className="i_icon"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Infobox_info_icon.svg/1200px-Infobox_info_icon.svg.png"
