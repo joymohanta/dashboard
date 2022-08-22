@@ -1,4 +1,5 @@
 import React from "react";
+import ChartBar from "./ChartBar";
 import "./ChartBarTitle.css";
 
 const ChartBarTitle = () => {
@@ -58,7 +59,9 @@ const ChartBarTitle = () => {
               </span>
             </div>
           </div>
-          <div></div>
+          <div>
+            <ChartBar></ChartBar>
+          </div>
         </section>
         <section className="bg-white">
           <div className="side_img">
@@ -91,7 +94,7 @@ const ChartBarTitle = () => {
               </span>
             </div>
           </div>
-          <hr className="mx-4" />
+          <hr className="mx-4 my-2" />
           <div>
             <span className="d-flex justify-content-between mx-4">
               <p>Earning</p>
